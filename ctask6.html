@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Web-Dev E-learning Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="making website using html and css only.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+         body{
+            padding: 0;
+            margin: 0;
+            background-repeat: no-repeat;
+            min-height: 100%;
+            min-width: 100%;
+            background: whitesmoke;
+        }
+        
+        .btnn {
+            padding: 6px 15px;
+            width: 4rem;
+            background: rgba(255, 255, 255, 3);
+            color: Black;
+            font-size: 1rem;
+            outline: none;
+            cursor: pointer;
+            font-weight: 600;
+            margin-bottom: 30rem;
+            margin-left: 10px;
+            margin-right: 2px;
+
+        }
+        .btnn:hover{
+            background-color: silver;
+        }
+        .ide{
+            background:rgb(104, 103, 103)
+        }
+        .main-editor{
+            
+            width: 100%;
+            box-shadow: 0 2px 3px black;
+            height: 100vh;
+            justify-content: space-between;
+            align-items: center;
+            border: 7px solid gray;
+            margin: 30px 30px 0 0;
+            display: flex;
+        }
+
+        .first {
+            background-color: white;
+            width: 50%;
+            overflow-x: hidden;
+            white-space: pre;
+            box-shadow: 0 1px 1px black;
+            outline: none;
+            padding: 0.6rem;
+            height: 90vh;
+            overflow-y: auto;
+            margin:30px 50px 0 0;
+
+        }
+      
+        .second {
+            background-color: white;
+            width: 50%;
+            overflow-y: auto;
+            white-space: pre;
+            right: 0;
+            box-shadow: 0 1px 1px black;
+            padding: 0.4rem;
+            height: 90vh;
+            margin:30px 70px 0 0;
+        }
+        h4 {
+           
+            margin-bottom: 20px;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 100;
+            font-size: 20px;
+        }
+        .w3-codespan{
+            color: red;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .div-task {
+            margin: 0 0 20px 20px;
+        }
+        .div-task2{
+            margin: 20px 0 20px 20px;
+        }
+        .example{
+            padding: 5px 30px;
+        }
+        .example img{
+            width: 50vw;
+        }
+        .box {
+            background: white;
+            
+            text-align: left;
+            margin: 5px 350px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+   
+    </style>
+</head>
+
+<body>
+    <div class="div-task">
+        <h1>CSS Fonts</h1>
+        <p>Choosing the right font for your website is important!
+        </p>
+    </div>
+    <div class="div-task2">
+        <h1>Font Selection is Important</h1>
+        <p>Choosing the right font has a huge impact on how the readers experience a website.
+<br>
+            The right font can create a strong identity for your brand.
+            <br>
+            Using a font that is easy to read is important. The font adds value to your text. It is also important to choose the correct color and text size for the font.
+            
+            
+        </p>
+        <h1>Generic Font Families</h1>
+        <p style="font-weight: bold;">In CSS there are five generic font families:</p>
+        <p>Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance. <br> <br>
+            Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look. <br><br>
+            Monospace fonts - here all the letters have the same fixed width. They create a mechanical look.  <br><br>
+            Cursive fonts imitate human handwriting. <br><br>
+            Fantasy fonts are decorative/playful fonts.</p>
+            <br>
+            <img src="task-images/font.jpg" alt="">
+            <h1>CSS Font</h1>
+            <p>CSS Font property is used to control the look of texts. By the use of CSS font property you can change the text size, <br> color, style and more. You have already studied how to make text bold or underlined. Here, you will also know how to resize your font using percentage.</p>
+            <img src="task-images/font1.png" alt="">
+
+    </div>
+    <div class="example">
+        <h1>Example</h1>
+        <img src="task-images/font3.jpg" alt="">
+    </div>
+    
+    
+
+    <div class="ide">
+       
+            <h4>Write The Code Here</h4>
+    
+    <div class="main-editor">
+        <button class="btnn">Run</button>   
+        
+<div class="first" contenteditable></div>
+     <iframe class="second"></iframe>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
